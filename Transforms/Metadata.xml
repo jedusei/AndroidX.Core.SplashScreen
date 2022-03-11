@@ -1,0 +1,9 @@
+﻿<metadata>
+	<attr path="/api/package[@name='androidx.core.splashscreen']"
+        name="managedName">AndroidX.Core.SplashScreen</attr>
+
+	<remove-node  
+		path="/api/package[@name='androidx.core.splashscreen']/class[@name='SplashScreen']/constructor[@name='SplashScreen' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='kotlin.jvm.internal.DefaultConstructorMarker']]" />
+
+	<remove-node path="/api/package[@name='androidx.core.splashscreen']/class[@name='SplashScreen.Companion']" />
+</metadata>
