@@ -1,3 +1,5 @@
+# The official package has finally been released. You should use that instead: https://www.nuget.org/packages/Xamarin.AndroidX.Core.SplashScreen
+
 # AndroidX.Core.SplashScreen
 Xamarin C# Bindings for the Android SplashScreen Compat library (core-splashscreen-1.0.0-alpha02.aar).
 
